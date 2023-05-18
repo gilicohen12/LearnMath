@@ -1,9 +1,10 @@
 package cs3500.learnmath;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class AdditionMathProblemTest {
 
@@ -11,7 +12,7 @@ class AdditionMathProblemTest {
   private AdditionMathProblem a2;
 
   @BeforeEach
-  public void setupAdditionTests () {
+  public void setupAdditionTests() {
     a1 = new AdditionMathProblem(1, 1);
     a2 = new AdditionMathProblem(3, 4);
   }

@@ -1,5 +1,8 @@
 package cs3500.learnmath;
 
+/**
+ * represents an abstraction of a math problem
+ */
 public abstract class MathProblem {
   protected int operandA = 0;
   protected int operandB = 0;
